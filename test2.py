@@ -2,8 +2,8 @@ import pygsheets
 import pandas as pd
 
 #授權
-# url = "C:/Users/syf/Desktop/code/data0923-a22f23dd44ce.json"
-gc = pygsheets.authorize(service_file='/data/data0923-a22f23dd44ce.json')
+url = "C:/Users/syf/Desktop/code/data0923-a22f23dd44ce.json"
+gc = pygsheets.authorize(service_file=url)
 
 
 #讀取 "宜搭每日訂單"，並抓資料
